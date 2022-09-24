@@ -4,10 +4,10 @@ import hashlib
 
 
 def main():
-    allowed_containers = 100
+    allowed_containers = 5
 
     hash_distribution = distributor(
-        printable, allowed_containers, hash_function=DecimalHashes.sha256sum
+        printable, allowed_containers, hash_function=hash
     )
 
     display_counter(hash_distribution)
@@ -56,6 +56,16 @@ class DecimalHashes:
     def sha512sum(string: str) -> str:
         """Takes a string and returns the decimal value of the sha512sum."""
         hex = hashlib.sha512(string.encode()).hexdigest()
+        return int(hex, 16)
+
+    def sha384sum(string: str) -> str:
+        """Takes a string and returns the decimal value of the sha384sum."""
+        hex = hashlib.sha384(string.encode()).hexdigest()
+        return int(hex, 16)
+
+    def sha1(string: str) -> str:
+        """Takes a string and returns the decimal value of the sha384sum."""
+        hex = hashlib.sha1(string.encode()).hexdigest()
         return int(hex, 16)
 
 
