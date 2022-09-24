@@ -14,7 +14,12 @@
 
 Workspace for following along the Real Python guide in building a hash table with test driven development - https://realpython.com/python-hash-table/
 
-<img src="https://files.realpython.com/media/sequence_memory.7b9f9207fe9a.png" width="75%" height="75%">
+### Python dictionary
+<img src="https://files.realpython.com/media/dict_map.6ea6c6e33b4b.png" width="40%" height="40%">
+
+### Python array of pointers (list)
+<img src="https://files.realpython.com/media/sequence_memory.7b9f9207fe9a.png" width="65%" height="65%">
+
 ## Other resources
 
 Hash table series - https://www.youtube.com/watch?v=MfhjkfocRR0&list=PLTxllHdfUq4f7-uHOpxXnBUbsuLiI9pmb
