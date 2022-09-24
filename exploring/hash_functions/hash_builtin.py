@@ -9,6 +9,12 @@ print(hash(eyep))
 print(hash(100))
 # 100
 
+print(hash(-1))
+# -2
+
+print(hash(-2))
+# -2
+
 print(hash(9999999999))
 # 9999999999
 
