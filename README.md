@@ -12,7 +12,7 @@
 
 # Real Python - Build a Hash Table in Python with TDD
 
-Workspace for following along the Real Python guide in building a hash table with test driven development - https://realpython.com/python-hash-table/
+Workspace for following along the Real Python guide in building a hash table with test driven development by Bartosz Zaczyński - https://realpython.com/python-hash-table/
 
 ### Python dictionary
 <img src="https://files.realpython.com/media/dict_map.6ea6c6e33b4b.png" width="40%" height="40%">
