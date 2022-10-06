@@ -5,8 +5,8 @@
     /_/ /_/\__,_/____/_/ /_/\__/\__,_/_.___/_/\___/ 
                                                  
                                                                                                           
-![GitHub last commit](https://img.shields.io/github/last-commit/davidtwynn/python_hash_table?style=plastic)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/davidtwynn/python_hash_table?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/davidtwynn/python_hash_table?style=plastic&color=success)
+![commits](https://badgen.net/github/commits/davidtwynn/python_hash_table?icon=github&color=blue)
 ![Python version](https://img.shields.io/badge/python%20version-3.10-blue)
 ![Coding style](https://img.shields.io/badge/code%20style-black-000000.svg)
 
